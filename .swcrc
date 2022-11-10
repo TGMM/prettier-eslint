@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "exclude": ["(tests|mocks)"],
+  "env": {
+    "targets": {
+      "node": "10"
+    }
+  }
+}

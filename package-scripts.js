@@ -24,10 +24,10 @@ module.exports = {
       openCoverage: 'open coverage/lcov-report/index.html',
     },
     build: {
-      description: 'delete the dist directory and run babel to build the files',
+      description: 'delete the dist directory and run swc to build the files',
       script: series(
         rimraf('dist'),
-        'babel --out-dir dist --ignore "src/__tests__/**/*","src/__mocks__/**/*" src'
+        'swc --out-dir dist src'
       ),
     },
     lint: {

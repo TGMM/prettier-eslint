@@ -67,9 +67,6 @@ updates:
   - dependency-name: jest-cli
     versions:
     - 26.6.3
-  - dependency-name: babel-jest
-    versions:
-    - 26.6.3
   - dependency-name: jest
     versions:
     - 26.6.3
